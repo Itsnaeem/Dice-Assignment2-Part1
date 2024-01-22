@@ -235,5 +235,37 @@ In this Docker Assignment I create a repo on git hub account and write all the o
 
 I create the repo on github account with name of `Dice-Assignment2-Part1` its a public repo.
 
+ ```bash
+ git status
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+```bash
+git commit -m "This is the assignment 2 part 1"
+```
+[main aa5ae9f] This is the assignment 2 part 1
+ 1 file changed, 237 insertions(+)
+
+```bash
+git push
+```
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 2.51 KiB | 2.51 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Itsnaeem/Dice-Assignment2-Part1.git
+   fbe90d0..aa5ae9f  main -> main
+
 
 
